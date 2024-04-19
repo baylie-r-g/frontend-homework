@@ -9,7 +9,7 @@ function handleInput() {
         document.getElementById('alert').style.color = 'red';
         return;
     }
-    else if (val < 0) {
+    else if (Number(val) < 0) {
         document.getElementById('alert').textContent='Your number must be positive';
         document.getElementById('alert').style.color = 'red';
         return;
